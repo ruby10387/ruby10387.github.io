@@ -35,16 +35,25 @@
 
 <script type='text/javascript'>
   $(document).ready(function() {
-    $("h1").addClass("shake");
-    $("h2").addClass("animated bounce");
+    $("h1").fadeIn("slow");
+    $("h2").fadeIn("slow");
     $("h3").css("color", "#855600");
     $("h2").css("color", "#404040");
   });
   $(document).ready(function() {
-     $(".Message").hide();
-     $("#getMessage").click(function(){
-       $(".Message").toggle();
-     })
+    $(".Message").hide();
+    $("#getMessage1").click(function(){
+      $("#Message1").toggle();
+    })
+    $("#getMessage2").click(function(){
+      $("#Message2").toggle();
+    })
+    $("#getMessage3").click(function(){
+      $("#Message3").toggle();
+    })
+    $("#getMessage4").click(function(){
+      $("#Message4").toggle();
+    })
   });
 </script>
 
@@ -54,17 +63,16 @@
 <h2>I love to watch animations,
 <br>so I want to share some good products with you.</h2>
 <p>
-<h3>"Hyouka"</h3>
-<img class="image1" src="http://1.fwcdn.pl/po/47/58/644758/7452220.3.jpg" alt="Hyouka">
-<p>
 
+
+<h3>"Hyouka"</h3>
+<p>
 <div>
-  <button id = "getMessage">
+  <button id = "getMessage1">
     More
   </button>
 </div>
-
-<div class = "Message">
+<div class = "Message" id = "Message1">
 <br>Among the students who have embarked on a rose colored high school life,
 <br>Yasutaki Kotaro is a "grey energy-savings activist"
 <br>who believes that "there is no need to do anything 
@@ -73,19 +81,77 @@
 <br>However, because of his request, he joined the "Ancient Book Research Society" 
 <br>of his school, Kamiyama High School.
 </div>
+<br>
+<img class="image1" src="http://1.fwcdn.pl/po/47/58/644758/7452220.3.jpg" alt="Hyouka">
+
 
 <h3>"Natsume Yuujinchou"</h3>
+<p>
+<div>
+  <button id = "getMessage2">
+    More
+  </button>
+</div>
+<div class = "Message" id = "Message2">
+<br>High school student Xia Guigui has spirituality and can see what others can't see.
+<br>When he received the relic of the grandmother Reiko "friend account", regardless of day or night,
+<br>began to have a variety of monsters have come to your door!
+<br>The original Reiko had the same spirituality as yours, and everyone respected her.
+<br>Reiko was very loneliness, and she went to the monsters everywhere to fight for the books.
+<br>The monsters to be defeated gave their names and made obedience contracts.
+<br>What you got from Guizhi is this "friend account" that contains many names of monsters,
+<br>which can command Bai Yao and attract people.
+<br>After learning about the circumstances of the matter,
+<br>Guizhi was determined to return the names on the "Friends Account" to the monsters defeated by Reiko.
+<br>If you want to get your friend's monster "Cat Teacher" without any fuss, volunteer to become a protector,
+<br>protect your ambition and "friend account" and embark on a journey of monsters together!
+</div>
+<br>
 <img class="image2" src="https://ih0.redbubble.net/image.372996504.2408/flat,800x800,070,f.u1.jpg" alt="Natsume Yuujinchou">
 <img class="image3" src="https://p9.pstatp.com/large/4e6700049ac3ded2e932" alt="Natsume Yuujinchou2">
-<br>
+
+
 <h3>"One Punch Man"</h3>
-<img class="image4" src="https://pbs.twimg.com/media/CAU-bsUWAAAkSFf.jpg" alt="One Punch Man">
+<p>
+<div>
+  <button id = "getMessage3">
+    More
+  </button>
+</div>
+<div class = "Message" id = "Message3">
+<br>The story takes place on a planet that resembles Earth, but has super powers and various strange creatures.
+<br>Various "geeks" with supernatural powers continue to emerge and cause disasters.
+<br>To combat them, the "Heroes Association" founded by a rich man began to recruit talented
+<br>and talented people from all over the world to become professional heroes and freaks.
+<br>The protagonist of the story, Saitama, is a hero. He has invincible power and can easily defeat the enemy.
+<br>Instead, he feels bored. Only when he meets a challenging opponent can he become excited.
+<br>In a series of incidents, Daiyu met a variety of heroes, villains, and eccentrics,
+<br>and received training to transform him as a disciple, and joined the Heroes Association to gain official recognition.
+</div>
 <br>
+<img class="image4" src="https://pbs.twimg.com/media/CAU-bsUWAAAkSFf.jpg" alt="One Punch Man">
+
 <h3>"The King's Avatar"</h3>
+<p>
+<div>
+  <button id = "getMessage4">
+    More
+  </button>
+</div>
+<div class = "Message" id = "Message4">
+<br>Glory, an online game with professional league events. Ye Qiu,
+<br>who had won three consecutive championships for the Kashishi team and was honored as the "Glory Textbook,"
+<br>was expelled by the club for various reasons and was forced to announce his retirement.
+<br>The legendary role he created was: "Autumn" was also left to the new captain.
+<br>He left a professional circle and became a small network manager at a cyber cafe.
+<br>With ten years of gaming experience, he re-entered the game in the glorious new tenth district
+<br>with his memories of the past. "Jun Mo" and an unfinished self-made weapon,
+<br>the "Machine Umbrella", began to return to the top of the road.
+</div>
+<br>
 <img class="image5" src="http://i2.wp.com/inews.gtimg.com/newsapp_match/0/1365172098/0" alt="The King's Avatar">
 <img class="image6" src="https://zingtv-photo-td.zadn.vn/channel/c/7/c743a740c24f0b13dbc68de496898745_1497606628.jpg" alt="The King's Avatar2">
 
-    
 </center>
 
 </body>
