@@ -1,13 +1,19 @@
 <html>
 
+<head>
+<title>Welcome to my website</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
 <script>
   $(document).ready(function() {
     $("h1").addClass("animated shake");
     $("h2").addClass("animated bounce");
     $("h3").css("color", "#855600");
     $("h2").css("color", "#404040");
-     $("#getMessage").on("click", function(){
-       $(".message").html("Among the students who have embarked on a rose colored high school life,
+     $("#getMessage").click(function(){
+       $(".Message").html("Among the students who have embarked on a rose colored high school life,
                            Yasutaki Kotaro is a ¡§grey energy-savings activist¡¨
                            who believes that ¡§there is no need to do anything 
                            and you have to do what you have to do to resolve it as soon as possible¡¨.
@@ -16,17 +22,9 @@
                            of his school, Kamiyama High School. ");
     
      });
-    
-    
-    
   });
 </script>
 
-<head>
-<title>Welcome to my website</title>
-</head>
-<link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 <style>
   body {
     background-color: #C2C2FF;
@@ -63,13 +61,13 @@
 <img class="image1" src="http://1.fwcdn.pl/po/47/58/644758/7452220.3.jpg" alt="Hyouka">
 <br>
 
-<div class = "col-xs-12">
-  <button id = "getMessage" class = "btn btn-primary">
+<div>
+  <button id = "getMessage">
     More
   </button>
 </div>
 
-<div class = "col-xs-12 well message">
+<div class = "Message">
 </div>
 
 <h3>"Natsume Yuujinchou"</h3>
