@@ -2,25 +2,10 @@
 
 <head>
 <title>Welcome to my website</title>
+<script type="Text/JavaScript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 </head>
 <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-
-<script type="Text/JavaScript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-<script type='text/javascript'>
-  $(document).ready(function() {
-    $("h1").addClass("shake");
-    $("h2").addClass("animated bounce");
-    $("h3").css("color", "#855600");
-    $("h2").css("color", "#404040");
-  });
-  $(document).ready(function() {
-     $(".Message").hide();
-     $("#getMessage").click(function(){
-       $(".Message").toggle();
-     })
-  });
-</script>
 
 <style>
   body {
@@ -47,6 +32,21 @@
 </style>
 
 <body>
+
+<script type='text/javascript'>
+  $(document).ready(function() {
+    $("h1").addClass("shake");
+    $("h2").addClass("animated bounce");
+    $("h3").css("color", "#855600");
+    $("h2").css("color", "#404040");
+  });
+  $(document).ready(function() {
+     $(".Message").hide();
+     $("#getMessage").click(function(){
+       $(".Message").toggle();
+     })
+  });
+</script>
 
 <center>
 <h1>Recommended Animation</h1>
